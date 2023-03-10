@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
+</head>
+<body>
+    <h1 id="title">Welcome To The Fortune Teller!</h1>
+    <h2 id="description">Tell me about yourself, and I will read your fortune.</h2>
+    <h3 id="demo"></h3>
+    <section>
+        <input placeholder="First Name" type="text" id="first-name">
+        <input placeholder="Last Name" type="text" id="last-name">
+        <input placeholder="Age" type="number" id="age">
+        <!-- <input placeholder="Birth Month" type="number" max="12" min="1" id="birth-month"> -->
+        <select id="birth-month">
+            <option value="" disabled selected>Select Your Birth Month...</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <label>Favorite Color
+            <select id="color">
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="inidgo">Indigo</option>
+                <option value="violet">Violet</option>
+            </select>
+        </label>
+        <input placeholder="Number of Siblings" type="number" min="0" id="number-of-siblings">
+        <!-- <input placeholder="First Name" type="text" id=""> -->
+        <button id="determine-fortune">Determine Fortune!</button>
+    </section>
+    <script src="/js/app.js"></script>
+</body>
+</html>

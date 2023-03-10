@@ -1,0 +1,1 @@
+"# js-fortune-teller app" 
